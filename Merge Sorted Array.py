@@ -50,7 +50,14 @@ Constraints:
 
 Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 """
-#O(m + n)
+
+#Strategy: keep track of a pointer for each array. Then run from the back,
+#Largest to smallest numbers and insert into the empty space at the end of 
+#nums1
+
+#time complexity: O(n) to O(m + n)
+#space complexity: O(1)
+
 class Solution:
     def merge(self, nums1: list[int], m: int, nums2: list[int], n: int) -> None:
         """
