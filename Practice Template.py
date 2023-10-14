@@ -1,10 +1,9 @@
 """
 """
 
-#Strategy:
-
-#Time complextiy: 
-#Space complexity: 
-
 class Solution:
-    
+    #Strategy:
+
+    #Time complextiy: 
+    #Space complexity: 
+    def (self, ):
